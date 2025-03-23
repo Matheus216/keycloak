@@ -398,3 +398,43 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Environment files
+.env
+.env.local
+
+# Build and dependency files
+node_modules/
+dist/
+build/
+__pycache__/
+venv/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Database and runtime files
+.docker/
+*.sqlite
+*.sqlite-journal
+
+# Generated files
+*.min.js
+*.min.css
+*.map
+
+# Personal files
+*.bak
+*.backup
+*.sav
+
+!*/.docker

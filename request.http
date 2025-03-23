@@ -1,0 +1,12 @@
+@token_host = http://localhost:8080/realms/realm/protocol/openid-connect/token
+@client_id = realm-api
+@username = realm-client
+@password = password
+@client_secret = YtoatVj2Ul2BQ3sYYexHO71q87tp3WwA
+
+POST {{token_host}}
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&client_id={{client_id}}&username={{username}}&password={{password}}&client_secret={{client_secret}}
+
+
